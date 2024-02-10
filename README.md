@@ -29,7 +29,7 @@ server.port=8080
 ````
 ## dependências no pom.xml
 ### Spring Cloud Function
-````aidl
+````
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
 	<artifactId>spring-cloud-function-web</artifactId>
@@ -41,7 +41,7 @@ server.port=8080
 </dependency>
 ````
 ### Spring Cloud OpenFeign
-````aidl
+````
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
 	<artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -49,7 +49,7 @@ server.port=8080
 </dependency>
 ````
 ### Spring Cloud Gateway
-````aidl
+````
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
 	<artifactId>spring-cloud-starter-gateway</artifactId>
@@ -60,7 +60,7 @@ server.port=8080
 ``GET: http://localhost:8081/get-all``
 <p> retorno esperado
 
-````aidl
+````
 [
     {
         "id": 1,
@@ -89,7 +89,7 @@ server.port=8080
 ``GET: http://localhost:8082/get-all``
 <p> retorno esperado
 
-````aidl
+````
 [
     {
         "id": "655667af-3075-4adb-882e-d4d8c5fa65c6",
@@ -124,7 +124,7 @@ server.port=8080
 #### Tentando acessar a api de forma pública.
 ``GET: http://localhost:8080/estoque/api/consumer-remova-estoque``
 
-````aidl
+````
 {
     "timestamp": "2024-02-10T22:11:46.979+00:00",
     "path": "/estoque/api/consumer-remova-estoque",
