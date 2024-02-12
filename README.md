@@ -78,7 +78,7 @@ server.port=8080
 ### api Consumer
 ``POST: http://localhost:8081/api/consumer-remova-estoque``
 <P> retorno esperado
-````aidl
+````
 {
     "idProduto": 1,
     "quantidade": 10
